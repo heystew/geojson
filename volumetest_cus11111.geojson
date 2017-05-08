@@ -1,6 +1,6 @@
 {
-	"fileVersion" : 1,
-	"checksum" : "970b28c8a195a6711e3b4a3da9c7c966",
+	"fileVersion" : 2,
+	"checksum" : "09af3a5e8447ec6498a22259633a126b",
 	"fileFormatVersion" : 1,
 	"fileName" : "volumetest_cus111111.geojson",
 	"fileGeneratedBy" : "manual",
@@ -36,7 +36,7 @@
 		} 
 	],
 	"type" : "FeatureCollection",
-	"totalFeatures" : 2,
+	"totalFeatures" : 3,
 	"features" : [{
 			"type" : "Feature",
 			"bbox" : [-89.000000, 65.000000, -36.000000, 80.000000],
@@ -102,10 +102,10 @@
 			"bbox" : [-88.000000, 66.000000, -37.000000, 79.000000],
 			"id" : "12-12-01-01",
 			"properties" : {
-				"featureVersion" : 2,
+				"featureVersion" : 3,
 				"featureBirthDate" : "2017-04-30T12:00:00.000Z",
 				"featureEffectiveDate" : "2017-04-30T12:00:00.000Z",
-				"featureEndDate" : "2099-12-31T23:59:59.999Z",
+				"featureEndDate" : "2017-04-30T16:00:00.000Z",
 				"customerID" : "CUS-111111",
 				"volumeName" : "BSSV Volume 1",
 				"icaoID" : "BSSV",
@@ -116,6 +116,44 @@
 				"featureType" : "billing",
 				"billingFeatureProperties" : {
 					"billingType" : "usage",
+					"billingPriority" : 1,
+					"billingEffectiveDate" : "2017-05-02T12:00:00.000Z",
+					"failedStateThresholdSecs" : 60
+				},
+				"geometryType" : "polygon",
+				"centerPoint" : [-62.50000, 72.500000],
+				"floorFeet" : 18000,
+				"ceilingFeet" : 60000
+			},
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [[
+					[-88.000000, 66.000000],
+					[-37.000000, 66.000000],
+					[-37.000000, 79.000000],
+					[-88.000000, 79.000000],
+					[-88.000000, 66.000000]
+				]]
+			}
+		},{
+			"type" : "Feature",
+			"bbox" : [-88.000000, 66.000000, -37.000000, 79.000000],
+			"id" : "12-12-01-02",
+			"properties" : {
+				"featureVersion" : 1,
+				"featureBirthDate" : "2017-04-30T16:00:00.000Z",
+				"featureEffectiveDate" : "2017-04-30T16:00:00.000Z",
+				"featureEndDate" : "2099-12-31T23:59:59.999Z",
+				"customerID" : "CUS-111111",
+				"volumeName" : "BSSV Volume 2",
+				"icaoID" : "BSSV",
+				"sac" : "0x12",
+				"sic" : "0x12",
+				"sid" : "0x01",
+				"featureID" : "0x02",
+				"featureType" : "billing",
+				"billingFeatureProperties" : {
+					"billingType" : "flat rate",
 					"billingPriority" : 1,
 					"billingEffectiveDate" : "2017-05-02T12:00:00.000Z",
 					"failedStateThresholdSecs" : 60
