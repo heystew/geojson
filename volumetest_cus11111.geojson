@@ -1,10 +1,10 @@
 {
 	"fileVersion" : 1,
-	"checksum" : "8da12ecb714d18a3faeec1e3bac2a37a",
+	"checksum" : "970b28c8a195a6711e3b4a3da9c7c966",
 	"fileFormatVersion" : 1,
 	"fileName" : "volumetest_cus111111.geojson",
 	"fileGeneratedBy" : "manual",
-	"fileModifiedDate" : "2017-04-25T12:00:00.000Z",
+	"fileModifiedDate" : "2017-04-25T13:00:00.000Z",
 	"crs" : {
 		"type" : "name",
 		"properties" : {
@@ -102,7 +102,7 @@
 			"bbox" : [-88.000000, 66.000000, -37.000000, 79.000000],
 			"id" : "12-12-01-01",
 			"properties" : {
-				"featureVersion" : 1,
+				"featureVersion" : 2,
 				"featureBirthDate" : "2017-04-30T12:00:00.000Z",
 				"featureEffectiveDate" : "2017-04-30T12:00:00.000Z",
 				"featureEndDate" : "2099-12-31T23:59:59.999Z",
@@ -117,7 +117,7 @@
 				"billingFeatureProperties" : {
 					"billingType" : "usage",
 					"billingPriority" : 1,
-					"billingEffectiveDate" : "2017-05-01T12:00:00.000Z",
+					"billingEffectiveDate" : "2017-05-02T12:00:00.000Z",
 					"failedStateThresholdSecs" : 60
 				},
 				"geometryType" : "polygon",
